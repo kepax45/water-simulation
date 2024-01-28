@@ -5,7 +5,7 @@ screen_width = 800
 screen_height = 800
 cell_size = screen_width//n_of_cells
 window = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("sand simulation")
+pygame.display.set_caption("Water physics simulation")
 running = True
 grid = Grid(n_of_cells, n_of_cells, cell_size)
 while running:
